@@ -11228,8 +11228,8 @@ nav.page-navbar.affix .navbar-brand .text-dark {
   text-align: center;
   color: white;
   position: relative;
-  height: 100%;
-  
+  min-height: 100%;
+  max-height: 120%;
 }
 
 .header .overlay {
@@ -11268,8 +11268,15 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 
 .header .header-content h6 {
   margin-bottom: 25px;
-  font-size: calc(35px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
+  font-size: calc(25px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
   padding-bottom: auto;
+  text-align: inherit;
+  
+}
+
+.header .header-content h5 {
+font-size: 20px;
+padding-bottom: 10px;
 }
 
 .header-title {
