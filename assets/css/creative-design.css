@@ -459,10 +459,10 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3 rem;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 hr {
@@ -2212,7 +2212,7 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #575549;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -11233,6 +11233,9 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 }
 
 
+.head-logo{
+  padding-bottom: 100px;
+}
 
 .header .overlay {
   position: absolute;
@@ -11460,7 +11463,7 @@ section.height-auto {
 
 .about-wrapper .content {
   background-color: #fff;
-  box-shadow: 0 3px 80px rgba(173, 181, 189, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;
+  box-shadow: 0 3px 80px rgba(255, 215, 0, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;
   border-radius: 0.2rem;
   padding: 30px;
   position: relative;
