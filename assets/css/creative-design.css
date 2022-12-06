@@ -98,31 +98,53 @@ p {
   
 }
 
+.img-container {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
 
+.img-container .img-content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 50%; /* Full width */
+  height: 100%;
+  padding: 10px; /* Some padding */
+}
 
-/*.header p{
-  padding-top: 20px;
-  padding-left: 190px;
-  padding-right: 190px;
-  padding-bottom: auto;
-  text-align: center;
-  
+.column {
+  float: left;
+  width: 50%;
+  padding: 2px;
+}
+
+.column-text{
+  background-color: #fdb714;
+  padding-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 31px;
   
 }
 
-.header h5{
-  padding-top: 0px;
-  color: rgba(0, 0, 0, 0.705);
+.blue {
+  margin-top: 0;
+  background-color: #44a1d9;
+  width: 100%;
+  
 }
 
-.header h7{
-  color: rgb(151, 29, 29);
-  background-color:rgba(255, 255, 255, 0.555);
-  padding: 10px;
-  border-radius: 50px;
-  font-size: 15px;
-  padding-bottom: auto;
-}*/
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 abbr[title],
@@ -11326,7 +11348,7 @@ padding-bottom: 10px;
 body,
 html {
   height: 100%;
-  background-color: #fdb714;
+  background-color: rgba(211, 211, 211, 0.1);
 }
 
 section {
@@ -11460,13 +11482,14 @@ section.height-auto {
 .about-wrapper {
   padding-top: 20px;
   position: relative;
+  
 }
 
 .about-wrapper .content {
-  background-color: #fff;
-  box-shadow: 0 3px 80px rgba(255, 215, 0, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;
+  background-color: white;
+  /*box-shadow: 0 3px 80px rgba(255, 215, 0, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;*/
   border-radius: 0.2rem;
-  padding: 30px;
+  padding: 50px;
   position: relative;
   
 }
