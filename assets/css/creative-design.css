@@ -631,6 +631,9 @@ pre code {
   }
 
   
+
+  
+  
   
 }
 
@@ -11248,14 +11251,14 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 }
 
 .header {
-  background: #efefef url(../imgs/cover.png);
+  /*background: #efefef url(../imgs/cover.png);*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
   position: relative;
-  height: 90%;
+  height: 100%;
   
 }
 
@@ -11599,7 +11602,7 @@ section.height-auto {
   }
   .img-wrapper img {
     display: block;
-    margin: 20px 0;
+    margin: 0px 0;
   }
 }
 
