@@ -89,6 +89,16 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+div.sticky {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  padding: 10px; 
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
+  border-radius: 0.2rem;
+}
 
 
 p {
