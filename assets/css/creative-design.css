@@ -632,6 +632,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+ 
   
 }
 
@@ -8787,12 +8788,14 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
-.fixed-top {
-  position: fixed;
+/*.fixed-top {
+  /*position: fixed;
+  overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
+  
 }
 
 .fixed-bottom {
@@ -8801,7 +8804,7 @@ button.bg-dark:focus {
   bottom: 0;
   left: 0;
   z-index: 1030;
-}
+}*/
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
@@ -11261,7 +11264,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 }
 
 .header {
-  /*background: #efefef url(../imgs/cover.png);*/
+  
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11321,19 +11324,6 @@ nav.page-navbar.affix .navbar-brand .text-dark {
   color: #fff;
 }
 
-.header .header-content p {
-  color: black;
-  opacity: 10;
-  margin-bottom: 5px;
-  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1200 - 300)));
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: justify;
-  margin-left: 20px;
-  margin-right: 20px;
-  /*padding-left: 300px;
-  padding-right: 300px;
-  font-size: 20px;*/
-}
 
 .header .header-content h6 {
   margin-bottom: 25px;
@@ -11396,13 +11386,13 @@ padding-bottom: 10px;
 body,
 html {
   height: 100%;
-  margin: 0px;
-  background-color: black;
+  /*margin: 0px;*/
+  background-color: white;
   
 }
 
 section {
-  padding: 5px;
+  padding: 15px;
  
   
 }
@@ -11580,7 +11570,7 @@ section.height-auto {
 
 .img-wrapper {
   position: relative;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .img-wrapper .after {
